@@ -16,7 +16,7 @@ warnings.filterwarnings('ignore')
 def load_data(filepath):
     """Loads the bike prediction dataset."""
     try:
-        df = pd.read_csv("/home/samabishekraj/Desktop/internproject/bike/bike_predict.csv")
+        df = pd.read_csv("bike_predict.csv")
         return df
     except FileNotFoundError:
         st.error(f"Error: {filepath} not found. Please make sure the file is in the same directory.")
