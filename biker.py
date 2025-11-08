@@ -82,7 +82,7 @@ def train_model(df):
 # --- 3. Main Streamlit App ---
 
 st.set_page_config(layout="wide")
-st.title("🚲 Bike Maintenance Classification Project")
+st.title("Bike Maintenance Classification Project")
 
 # Load the data
 df_original = load_data('bike_predict.csv')
